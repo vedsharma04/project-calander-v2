@@ -1,0 +1,19 @@
+{
+  "name": "project-solarsquare-v2",
+  "version": "1.0.0",
+  "description": "meeting management syatem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ved",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.1"
+  }
+}
