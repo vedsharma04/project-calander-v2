@@ -1,3 +1,5 @@
+Meeting Manager
+
 // Already Added User
 UID-20550
 "name":"ved",
@@ -78,7 +80,7 @@ curl -X POST \
 //BULK_UPDATE
 
 curl -X POST \
-  'localhost:9080/api/bulk-meeting' \
+  'http://localhost:9080/api/bulk-meeting' \
   --header 'Accept: */*' \
   --header 'Content-Type: application/json' \
   --data-raw '{
@@ -118,7 +120,7 @@ curl -X POST \
 //BULK_CANCEL
 
 curl -X POST \
-  'localhost:9080/api/bulk-meeting' \
+  'http://localhost:9080/api/bulk-meeting' \
   --header 'Accept: */*' \
   --header 'Content-Type: application/json' \
   --data-raw '{
